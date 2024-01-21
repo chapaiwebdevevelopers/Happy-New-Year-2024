@@ -1,0 +1,17 @@
+/* common style  */
+
+
+
+/* Header style  */
+header nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav > ul {
+    display: flex;
+    list-style-type: none;
+    gap:20px;
+}
+nav > ul > li> a {
+    text-decoration: none;
+}
