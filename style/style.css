@@ -1,8 +1,43 @@
+/* import font  */
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* universal style  */
+body{
+    margin :0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Work Sans";
+}
+:root{
+    --primary-color: #F15B22;
+    --Dark-01 : #151414;
+    --Dark-02 : #444343;
+    --Dark-03 : #737272;
+    --White : #fff;
+}
 /* common style  */
-
-
-
+.primary-color{
+ color: #F15B22;;
+}
+.btn-primary{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border: 0px;
+}
+.section-part{
+    margin: 140px 0px;
+}
 /* Header style  */
+header{
+    background: url('../images/banner/banner1.png');
+    background-repeat:no-repeat;
+   background-size: cover;
+}
 header nav{
     display: flex;
     justify-content: space-around;
@@ -11,7 +46,99 @@ nav > ul {
     display: flex;
     list-style-type: none;
     gap:20px;
+    align-items: center;
 }
 nav > ul > li> a {
     text-decoration: none;
 }
+.nav-title {
+    font-size: 30px;
+}
+
+/* Hero section style  */
+.hero-column{
+    width: 50%;
+}
+.hero{
+    display: flex;
+    text-align: right;
+}
+.hero-container{
+    margin:215px;
+    text-align: right;
+}
+.hero-title{
+    color: var(--Dark-01);
+    font-size: 65px;
+    font-weight: 700;
+    margin:0px;
+}
+.hero-description{
+ margin: 28px 0px;
+}
+
+/* Main style start  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* failure section style  */
+.failures{
+    display: flex;
+    gap:100px;
+    
+}
+.section-failure-img img {
+    background: url(<path-to-image>), rgb(187, 15, 15) 50% / cover no-repeat;
+
+    
+}
+
+.section-title{
+    color: var(--Dark-01);
+    font-size: 40px;
+    font-weight: 700;
+    /* margin-bottom: 24px; */
+}
+.section-failure-container{
+    margin: auto 0px;
+}
+.section-failure-container ul {
+    list-style:none;
+}
+.section-failure-container ul li {
+    line-height: 26px;
+}
+.section-failure-container ul > li::before{
+    content:  '✓';
+    color:green;
+    font-weight: bold;
+    padding-right: 8px;
+}
+
+
+/* My plan section  */
+
+.plan-section{
+    text-align: center;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-item h3{
+    color: var(--Dark-01);
+    font-size: 30px;
+    font-weight: 700;
+    color:red;
+}
+
+
+
+
+
+
+/* .section-failure-container{
+    align-items: center;
+} */
