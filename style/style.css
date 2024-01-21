@@ -29,6 +29,15 @@ body{
     padding: 20px 25px;
     border: 0px;
 }
+.btn-white{
+    color:var(--primary-color);
+    background-color:var(--White);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border: 0px;
+}
 .section-part{
     margin: 140px 0px;
 }
@@ -129,11 +138,63 @@ main {
 }
 .skill-item h3{
     color: var(--Dark-01);
-    font-size: 30px;
-    font-weight: 700;
-    color:red;
+    font-size: 25px;
+    font-weight:700;
+}
+.call-to-action{
+    background-image: url('../images/watch.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: left;
+    padding: 40px;
+    margin: 135px 0px;
+}
+.call-to-action > .section-title{
+ color:white;
+ max-width: 50%;
+}
+footer{
+    padding: 130px 230px;
+    background-color:var(--Dark-01);
+    display: flex;
+    gap:331px;
+    color:white ;
+}
+footer .section-title, a{
+    color:white;
+    text-decoration: none;
 }
 
+.social-links{
+    display: flex;
+    margin: 32px 0px;
+}
+.footer-column{
+    width:50%;
+    display: block;
+}
+.social-links a {
+    padding:8px;
+    background: white;
+    color: darkblue;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 10px 15px 10px 0px;
+    
+}
+.subscribe{
+font-size: 25px;
+font-weight: 600;
+}
+footer input{
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding:20px;
+}
+footer input , button {
+    display: block;
+    padding:20px 30px;
+}
 
 
 
