@@ -143,13 +143,22 @@ main {
 }
 .call-to-action{
     background-image: url('../images/watch.png');
-    background-position: center;
+    background-size:cover;
     background-repeat: no-repeat;
     text-align: left;
-    padding: 40px;
     margin: 135px 0px;
 }
-.call-to-action > .section-title{
+.bg-overlay{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    color:white;
+}
+.call-to-action-description{
+    padding: 40px;
+}
+.bg-overlay .section-title{
  color:white;
  max-width: 50%;
 }
