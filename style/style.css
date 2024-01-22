@@ -160,9 +160,14 @@ footer{
     gap:331px;
     color:white ;
 }
-footer .section-title, a{
-    color:white;
+footer a {
     text-decoration: none;
+    color:white;
+}
+.footer-title{
+    font-size: 45px;
+    color: #F8F8F8;
+    font-weight: 700;
 }
 
 .social-links{
@@ -176,30 +181,36 @@ footer .section-title, a{
 .social-links a {
     padding:8px;
     background: white;
-    color: darkblue;
     border-radius: 20px;
     font-size: 20px;
     margin: 10px 15px 10px 0px;
     
 }
+.social-links .fa-youtube {
+    color:red;
+}
+.social-links .fa-facebook{
+    color:#0866ff;
+}
+.social-links .fa-twitter{
+    color:#1da1f2;
+}
 .subscribe{
 font-size: 25px;
 font-weight: 600;
+margin-bottom: 30px;
 }
 footer input{
     border-radius: 8px;
     border: 1px solid #FFF;
     padding:20px;
 }
+footer input[type="email"]{
+    background-color:var(--Dark-01);
+    color:white;
+}
 footer input , button {
     display: block;
     padding:20px 30px;
+    margin: 16px 0px;
 }
-
-
-
-
-
-/* .section-failure-container{
-    align-items: center;
-} */
